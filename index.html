@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height:100vh;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .child1{
+            height:300px;
+            width: 300px;
+            background-color: green;
+            border-radius: 80PX;
+            
+            
+           
+        }
+        .child2{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(18, 54, 232);
+            border-radius: 80px;
+        }
+        .child1:hover{
+            transform: rotate(-5000deg); 
+           transition: 2s;
+           translate: 200px;
+           box-shadow: 10px 10px 10px black;
+           
+        }
+        .child2:hover{
+            transform: rotate(5000deg);
+            transition: 3s;
+            box-shadow: 10px 10px 10px;
+        }
+        /* .parent:hover{
+            justify-content: space-between;
+        } */
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+           
+
+        </div>
+        <div class="child2">
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
